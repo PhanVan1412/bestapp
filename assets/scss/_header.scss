@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    padding: 2rem 9%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: $box-shadow;
+    display: flex;
+    z-index: 10000;
+    .logo {
+        font-weight: 700;
+        font-size: 2rem;
+        color: $purple;
+        span {
+            color: $pink;
+        }
+    }
+    .navbar {
+        a {
+            font-size: 1.7rem;
+            margin-left: 2rem;
+            color: $purple;
+            font-weight: 600;
+            &:hover {
+                color: $pink;
+                
+            }
+        }
+    }
+    input {
+        display: none;
+    }
+    label {
+        font-size: 3rem;
+        color: $purple;
+        cursor: pointer;
+        visibility: hidden;
+        opacity: 0;
+    }
+}

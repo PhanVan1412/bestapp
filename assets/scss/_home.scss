@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/home-bg-img.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    .image {
+        img {
+            width: 35vw;
+            animation: float 3s linear infinite;
+        }
+    }
+    .content {
+        h3 {
+            font-size: 5.5rem;
+            color: #333;
+            text-transform: uppercase;
+            span {
+                color: $pink;
+
+            }
+        }
+        p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+    }
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(-3.5rem);
+    }
+}

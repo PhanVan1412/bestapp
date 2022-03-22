@@ -1,0 +1,55 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    &::selection {
+        background: $pink;
+        color: #fff;
+    }
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    background: #f9f9f9;
+    overflow-x: hidden;
+}
+section {
+    padding: 0px 9%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 3rem;
+    border-radius: 5rem;
+    background: $gradient;
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: $box-shadow;
+    transition: .2s linear;
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+.heading {
+    text-align: center;
+    background: $gradient;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-bottom: 2rem;
+
+}

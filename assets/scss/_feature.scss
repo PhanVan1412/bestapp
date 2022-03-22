@@ -1,0 +1,33 @@
+.features {
+    .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .box {
+            flex: 1 1 35rem;
+            background: #fff;
+            border-radius: .5rem;
+            border: $border;
+            box-shadow: $box-shadow;
+            margin: 1.5rem;
+            padding: 3rem 2rem;
+            text-align: center;
+            img {
+                height: 15rem;
+
+            }
+            h3 {
+                font-size: 2rem;
+                color: #333;
+                padding-top: 1rem;
+            }
+            p {
+                font-size: 1.6rem;
+                color: #666;
+                line-height: 1.2;
+                padding: 1rem 0;
+            }
+        }
+    }
+}

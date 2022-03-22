@@ -1,0 +1,40 @@
+.about {
+    background: url(../img/about-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    .column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .image {
+            flex: 1 1 40rem;
+            img {
+                width: 100%;
+            }
+        }
+        .content {
+            flex: 1 1 40rem;
+            h3 {
+                font-size: 3rem;
+                color: #666;
+            }
+            p {
+                font-size: 1.5rem;
+                color: #666;
+                padding: 1rem 0;
+            }
+            .buttons {
+                i {
+                    margin-right: .5rem;
+                }
+                a {
+                   &:last-child {
+                       margin-left: 2rem;
+                   }
+                }
+            }
+        }
+    }
+}
